@@ -1,9 +1,7 @@
-import axios from 'axios';
-
-console.log("API URL:", import.meta.env.VITE_API_URL);
+import axios from "axios";
 
 const api = axios.create({
-    baseURL: import.meta.env.VITE_API_URL,
+  baseURL: "https://agro-app-backend-4kfh.onrender.com/api",
 });
 
 export default api;
